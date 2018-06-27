@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceWithUnityPlugin", "WindowsServiceWithUnityPlugin.csproj", "{AF5515B0-458E-FB6B-0E85-60389E36F502}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceDll", "WindowsServiceDll\WindowsServiceDll\WindowsServiceDll.csproj", "{B0A28124-F08C-4263-BD51-AED82D4343C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceDll", "WindowsServiceDll\WindowsServiceDll.csproj", "{B0A28124-F08C-4263-BD51-AED82D4343C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|x64.Build.0 = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Debug|x86.Build.0 = Debug|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|x64.ActiveCfg = Release|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|x64.Build.0 = Release|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|x86.ActiveCfg = Release|Any CPU
-		{AF5515B0-458E-FB6B-0E85-60389E36F502}.Release|x86.Build.0 = Release|Any CPU
 		{B0A28124-F08C-4263-BD51-AED82D4343C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0A28124-F08C-4263-BD51-AED82D4343C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A28124-F08C-4263-BD51-AED82D4343C1}.Debug|x64.ActiveCfg = Debug|x64
@@ -46,6 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A022A033-6997-455B-AF84-EE4F05041DF3}
+		SolutionGuid = {F1D2CACD-DEE6-4299-8898-BBC165E9A4DB}
 	EndGlobalSection
 EndGlobal
