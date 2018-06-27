@@ -14,14 +14,14 @@ using UnityEngine.UI;
 /// </summary>
 public class WindowsService : MonoBehaviour
 {
-    public InputField           nameInput;
-    public ScrollRect           nameList;
-    public Text                 serviceStatus;
-    public GameObject           serviceNamePrefab;
-    
-    private ServiceController   serviceController;
+    public InputField nameInput;
+    public ScrollRect nameList;
+    public Text serviceStatus;
+    public GameObject serviceNamePrefab;
 
-    private List<Text>          serviceNamesPool = new List<Text>();
+    private ServiceController serviceController;
+
+    private List<Text> serviceNamesPool = new List<Text>();
 
     void Start()
     {
@@ -67,7 +67,6 @@ public class WindowsService : MonoBehaviour
     public bool isServicePresent(string serviceName)
     {
         bool serviceExists = false;
-
         foreach (ServiceController sc in ServiceController.GetServices())
         {
             if (sc.ServiceName == serviceName)
@@ -101,7 +100,7 @@ public class WindowsService : MonoBehaviour
         {
             try
             {
-                serviceController.Refresh(); 
+                serviceController.Refresh();
                 Debug.Log("Service status : " + serviceController.Status + " service name : " + serviceName);
                 serviceStatus.text = serviceController.Status + "";
             }
